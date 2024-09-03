@@ -1,0 +1,71 @@
+/* Write your CSS here */
+
+.navbar-container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container-dark {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  background-color: #334155;
+
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.website-logo {
+  width: 50px;
+  cursor: pointer;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.heading {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.heading-dark {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.heading:hover {
+  text-decoration: underline;
+}
+
+.heading-dark:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    padding: 10px 50px 10px 50px;
+  }
+  .website-logo {
+    width: 80px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .heading-dark {
+    font-size: 30px;
+  }
+}

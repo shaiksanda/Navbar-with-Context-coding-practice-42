@@ -1,0 +1,25 @@
+/* Write your CSS here */
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.not-found-container-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: black;
+}
+
+.not-found-image {
+  width: 300px;
+}
